@@ -1,0 +1,59 @@
+# Archivos de herramientas y caché de Dart/Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+
+# Configuración de IDEs (VS Code e IntelliJ)
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.history
+
+# Archivos específicos de Android
+**/android/**/local.properties
+**/android/**/*.keystore
+**/android/**/*.jks
+**/android/**/*.bin
+**/android/**/*.apk
+**/android/**/*.aab
+**/android/app/google-services.json
+
+# Archivos específicos de iOS y macOS
+**/ios/**/Podfile.lock
+**/ios/Pods/
+**/ios/Flutter/Generated.xcconfig
+**/ios/Runner/GoogleService-Info.plist
+**/ios/Flutter/flutter_export_environment.sh
+**/macos/Flutter/Generated.xcconfig
+**/macos/Flutter/flutter_export_environment.sh
+
+# Archivos efímeros de escritorio
+**/linux/flutter/ephemeral/
+**/windows/flutter/ephemeral/
+
+# Archivos de sistema
+.DS_Store
+# Visual Studio Code snippets
+.vscode/project.code-snippets
+# Secretos y llaves (nunca subir credenciales reales)
+env.json
+env.*.json
+!env.json.example
+.env
+.env.*
+!.env.example
+
+# Supabase CLI — estado local del proyecto vinculado
+supabase/.temp/
+
+# Node (CLI Supabase local)
+node_modules/
+
+# Logs de compilación Kotlin/Android
+android/.kotlin/

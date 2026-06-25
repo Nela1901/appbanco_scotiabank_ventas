@@ -1,0 +1,233 @@
+{
+  "$schema": "design-tokens-scotiabank-v1",
+  "meta": {
+    "source": "appbanco_scotiabank_ventas (Flutter)",
+    "target": "core_frontend_scotiabank (React + Vite)",
+    "brand": "Scotiabank Ventas",
+    "primarySeed": "#ED1C24"
+  },
+  "color": {
+    "primary": {
+      "default": "#ED1C24",
+      "dark": "#C4161D",
+      "light": "#FDE8E9",
+      "tint20": "rgba(237, 28, 36, 0.2)"
+    },
+    "secondary": {
+      "default": "#1976D2",
+      "light": "#E3F2FD",
+      "note": "Acciones secundarias, chips de asesor, enlaces informativos"
+    },
+    "background": {
+      "page": "#FFFFFF",
+      "pageAlt": "#F5F5F5",
+      "login": "#1A1A1A",
+      "loginSheet": "#2A2A2A",
+      "stepperBar": "#F5F5F5",
+      "visitedCard": "#F5F5F5"
+    },
+    "text": {
+      "primary": "rgba(0, 0, 0, 0.87)",
+      "secondary": "#757575",
+      "muted": "#9E9E9E",
+      "onPrimary": "#FFFFFF",
+      "onPrimaryMuted": "rgba(255, 255, 255, 0.7)",
+      "onDark": "#FFFFFF",
+      "onDarkMuted": "rgba(255, 255, 255, 0.7)",
+      "onDarkSubtle": "rgba(255, 255, 255, 0.6)",
+      "disabled": "rgba(0, 0, 0, 0.54)"
+    },
+    "border": {
+      "default": "#E0E0E0",
+      "input": "#E0E0E0",
+      "inputFocus": "#ED1C24",
+      "cardAccent": "6px solid (tipo_gestion color)"
+    },
+    "semantic": {
+      "success": "#4CAF50",
+      "successBg": "#E8F5E9",
+      "error": "#F44336",
+      "errorDark": "#D32F2F",
+      "warning": "#FF9800",
+      "warningDark": "#EF6C00",
+      "info": "#2196F3",
+      "offlineBanner": "#FF9800"
+    },
+    "tipoGestion": {
+      "RENOVACION": "#2196F3",
+      "AMPLIACION": "#4CAF50",
+      "NUEVA SOLICITUD": "#FF9800",
+      "SEGUIMIENTO": "#607D8B",
+      "RECUPERACION MORA": "#F44336",
+      "DESERTOR": "#9C27B0",
+      "default": "#9E9E9E"
+    },
+    "prioridad": {
+      "ALTA": "#D32F2F",
+      "MEDIA": "#EF6C00",
+      "BAJA": "#1976D2"
+    },
+    "estadoSolicitud": {
+      "Aprobada": "#4CAF50",
+      "Rechazada": "#F44336",
+      "En comité": "#FF9800",
+      "Desembolsada": "#2196F3",
+      "default": "#9E9E9E"
+    },
+    "estadoVisita": {
+      "visitado": "#4CAF50",
+      "enRuta": "#2196F3",
+      "pendiente": "#9E9E9E"
+    },
+    "moraSemaforo": {
+      "preventivo": "#FBC02D",
+      "prioritario": "#FF9800",
+      "urgente": "#F44336"
+    },
+    "sbsRiesgo": {
+      "NORMAL": "#4CAF50",
+      "CPP": "#FF9800",
+      "DEFICIENTE": "#FF5722",
+      "DUDOSO": "#F44336",
+      "default": "#9E9E9E"
+    }
+  },
+  "typography": {
+    "fontFamily": {
+      "base": "Roboto, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif",
+      "note": "Flutter usa Roboto por defecto; Core Frontend ya usa Segoe UI/Roboto en index.css"
+    },
+    "fontSize": {
+      "caption": "10px",
+      "captionSm": "11px",
+      "captionMd": "12px",
+      "bodySm": "13px",
+      "body": "14px",
+      "bodyMd": "15px",
+      "bodyLg": "16px",
+      "titleSm": "18px",
+      "title": "20px",
+      "titleLg": "22px",
+      "titleXl": "24px",
+      "titleHero": "28px",
+      "counter": "20px",
+      "amount": "15px",
+      "amountLg": "24px",
+      "amountXl": "28px"
+    },
+    "fontWeight": {
+      "regular": 400,
+      "medium": 500,
+      "semibold": 600,
+      "bold": 700
+    },
+    "lineHeight": {
+      "tight": 1.2,
+      "normal": 1.5
+    }
+  },
+  "spacing": {
+    "xs": "4px",
+    "sm": "8px",
+    "md": "12px",
+    "base": "16px",
+    "lg": "20px",
+    "xl": "24px",
+    "2xl": "32px",
+    "3xl": "40px",
+    "screenPadding": "24px",
+    "cardPadding": "16px",
+    "listPadding": "8px"
+  },
+  "radius": {
+    "xs": "4px",
+    "sm": "8px",
+    "md": "10px",
+    "base": "12px",
+    "lg": "15px",
+    "xl": "20px",
+    "sheet": "25px",
+    "pill": "999px",
+    "avatar": "50%"
+  },
+  "elevation": {
+    "none": "0",
+    "cardPending": "4",
+    "cardDefault": "2",
+    "cardVisited": "0",
+    "appBar": "0",
+    "shadowColor": "rgba(0, 0, 0, 0.26)",
+    "shadowSoft": "rgba(0, 0, 0, 0.12)",
+    "cssShadowCard": "0 2px 8px rgba(0, 0, 0, 0.08)",
+    "cssShadowCardHover": "0 4px 12px rgba(0, 0, 0, 0.12)"
+  },
+  "component": {
+    "appBar": {
+      "background": "#ED1C24",
+      "color": "#FFFFFF",
+      "iconColor": "#FFFFFF",
+      "elevation": 0,
+      "tabIndicator": "#FFFFFF",
+      "tabUnselected": "rgba(255, 255, 255, 0.7)"
+    },
+    "button": {
+      "primaryBg": "#ED1C24",
+      "primaryColor": "#FFFFFF",
+      "primaryHeight": "50px",
+      "primaryPaddingY": "14px",
+      "secondaryBg": "transparent",
+      "secondaryBorder": "#1976D2",
+      "secondaryColor": "#1976D2",
+      "disabledOpacity": 0.38,
+      "ghostBg": "#E0E0E0",
+      "ghostColor": "rgba(0, 0, 0, 0.54)"
+    },
+    "chip": {
+      "selectedBg": "rgba(237, 28, 36, 0.2)",
+      "selectedColor": "#ED1C24",
+      "unselectedColor": "#000000",
+      "asesorSelectedBg": "#1976D2",
+      "asesorBg": "#E3F2FD"
+    },
+    "input": {
+      "loginBorder": "rgba(255, 255, 255, 0.3)",
+      "loginLabel": "rgba(255, 255, 255, 0.7)",
+      "formBorderRadius": "12px",
+      "outlineBorder": "#E0E0E0"
+    },
+    "progress": {
+      "track": "#EEEEEE",
+      "fill": "#ED1C24",
+      "height": "8px",
+      "radius": "10px"
+    },
+    "stepper": {
+      "active": "#ED1C24",
+      "completed": "#4CAF50",
+      "pending": "#E0E0E0",
+      "segmentWidth": "40px",
+      "segmentHeight": "8px"
+    },
+    "drawer": {
+      "headerBg": "#ED1C24",
+      "iconColor": "#ED1C24",
+      "sectionLabel": "#9E9E9E"
+    },
+    "fab": {
+      "background": "#ED1C24",
+      "color": "#FFFFFF"
+    }
+  },
+  "assets": {
+    "local": [],
+    "external": [
+      {
+        "name": "Logo Scotiabank",
+        "url": "https://raw.githubusercontent.com/Nela1901/assets/main/logoscotia.png",
+        "usedIn": "login_oficial_screen.dart",
+        "recommendedTarget": "core_frontend_scotiabank/public/logoscotia.png"
+      }
+    ],
+    "fallbackIcon": "Icons.account_balance (Material), color #ED1C24, size 80px"
+  }
+}
